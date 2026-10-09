@@ -5,6 +5,8 @@ export function storeAuthSession(account) {
     return
   }
 
+  console.log({account})
+  
   const sessionData = {
     isAuthenticated: true,
     account: {
